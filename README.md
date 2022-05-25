@@ -1,6 +1,6 @@
-# lab4
+# Lab 4
 
-The basemap I made is monochrome blue.
+The basemap I made is monochrome blue. I changed the color saturation to a darker hue.
 
 [Tileset 1](basemap.html)
 

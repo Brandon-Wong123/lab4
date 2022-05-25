@@ -78,7 +78,7 @@
         let map = new mapboxgl.Map({
             container: 'map', // container ID
             style: 'mapbox://styles/mapbox/dark-v10',
-            zoom: 12, // starting zoom
+            zoom: 2, // starting zoom
             center: [-100, 40] // starting center
         });
 
@@ -87,18 +87,18 @@
             map.addSource('thematic-tiles', {
                 'type': 'raster',
                 'tiles': [
-                    'assets/thematic_layer/{z}/{x}/{y}.png'
+                    'assets/map_layer_mapbox/{z}/{x}/{y}.jpg'
                 ],
-                'tileSize': 256,
+                'tileSize': 247,
                 'attribution': 'Map tiles designed by Brandon Wong</a>'
             });
 
             map.addSource('third-tiles', {
                 'type': 'raster',
                 'tiles': [
-                    'assets/third_tile/{z}/{x}/{y}.png'
+                    'assets/third_tile/{z}/{x}/{y}.jpg'
                 ],
-                'tileSize': 256,
+                'tileSize': 247,
                 'attribution': 'Map tiles designed by Brandon Wong'
             });
 
